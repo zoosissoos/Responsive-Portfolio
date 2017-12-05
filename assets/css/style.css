@@ -226,6 +226,8 @@ header{
 #aboutme,#portfolio,#contactme{
 	width: 260px;
 	position: static;
+	margin-bottom:50px;
+	margin:auto;
 }	
 
 
@@ -234,10 +236,10 @@ header{
 }
 
 #externallinks{
-	margin-left:20px;
-	margin-top: 10px;
-	margin-bottom:50px;
+	margin:auto;
+	margin-top:50px;
 	width:260px;
+	position: static;
 }
 
 #messagefield {
