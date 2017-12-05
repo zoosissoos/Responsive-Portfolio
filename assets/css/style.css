@@ -1,0 +1,253 @@
+body{
+	background-image: url("../images/concrete_seamless.png");
+	background-attachment: fixed;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	margin-top:90px;
+	padding-bottom: 0px;
+}
+
+header{
+	width: 100%;
+	padding: 20px;
+	background: #ffffff;
+	color: black;
+	text-align: center;
+	height: 28px;
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+footer{
+	width: 100%;
+	padding: 5px;
+	background: #ffffff;
+	color: black;
+	text-align: center;
+	height: 15px;
+	clear: both;
+    margin-top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    
+}
+
+h1,h2,h3{
+	font-family: 'Spectral SC',Georgia, Times, 'Times New Roman', serif;
+	margin: 0;
+	height: 28px;
+}
+
+h2{
+	margin: 20px;
+}
+
+a{
+	color: #cccccc ;
+	text-decoration: none;
+	text-align: center; 
+	display: inline-block;
+	padding: 10px;
+}
+
+.hrrule{
+	border : 0;
+  	height: 1px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#name{
+	width:70.0%;
+	float: left;
+}
+
+#pagelinks{
+	width:20%;
+	color: #E0E0E0;
+	text-align: right;
+	float: left;
+}
+
+#container{
+	margin: 20px;
+	clear: both;
+	position: relative;
+}
+
+#aboutme,#portfolio,#contactme{
+	background: #ffffff;
+	width: 650px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	clear: both;
+	position: absolute;
+}
+
+#aboutmeimage{
+	float: left;
+	margin: 30px;
+
+}
+#contactmetext{
+	margin: 10px;
+}
+
+.project{
+	margin:20px;
+	width:200px;
+	height:200px;
+	float: left;
+}
+
+#messagefield {
+    width: 600px;
+    height: 200px;
+}
+
+#externallinks{
+	background: #ffffff;
+	padding: 20px;
+	margin-left:800px;
+	text-align: center;
+	margin-top: 10px;
+	width:270px;
+	position: absolute;
+}
+
+#footertext{
+	text-align: center;
+	margin: 0 auto;
+	font-size: small;
+	bottom: 0;
+	padding: 0;
+}
+
+#sendmessage{
+	padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+	margin-top: 18px;
+}
+
+@media screen and (max-width: 980px) and (min-width: 769px) {
+
+#pagelinks{
+	width: 60%;
+}
+
+#name{
+	width: 30%;
+}
+#aboutme,#portfolio,#contactme{
+	width: 400px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	clear: both;
+	position: absolute;
+}
+
+#externallinks{
+	margin-left:500px;
+	margin-top: 10px;
+	width:200px;
+}
+
+
+#messagefield {
+    width: 380px;
+}
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+
+#name{
+	font-size: small;
+	width:30%;
+}
+
+#pagelinks{
+	font-size: small;
+	width:65%;
+}	
+
+#aboutme,#portfolio,#contactme{
+	width: 550px;
+	position: static;
+}	
+
+#portfolio{
+	height: 600px;
+}
+
+#externallinks{
+	margin-left:20px;
+	margin-top: 10px;
+	margin-bottom:50px;
+	width:270px;
+}
+
+#messagefield {
+    width: 420px;
+}
+
+}
+
+@media screen and (max-width: 640px){
+
+header{
+	padding:10px;
+	height: 43px;
+}
+
+#name{
+	font-size: small;
+	width:100%;
+	float: left;
+}
+
+#pagelinks{
+	width:100%;
+	color: #E0E0E0;
+	font-size: small;
+	text-align: center;
+	clear: both;
+	float: left;
+}
+
+#aboutme,#portfolio,#contactme{
+	width: 260px;
+	position: static;
+}	
+
+
+#portfolio{
+	height:1100px;
+}
+
+#externallinks{
+	margin-left:20px;
+	margin-top: 10px;
+	margin-bottom:50px;
+	width:260px;
+}
+
+#messagefield {
+    width: 220px;
+}
+}
+
+
+
+/* 	div {
+    border: 1px solid green;
+    padding: 1px;
+}  */
