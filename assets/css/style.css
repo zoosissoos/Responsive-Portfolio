@@ -61,12 +61,12 @@ a{
 }
 
 #name{
-	width:70.0%;
+	width:65.0%;
 	float: left;
 }
 
 #pagelinks{
-	width:20%;
+	width:30%;
 	color: #E0E0E0;
 	text-align: right;
 	float: left;
@@ -238,6 +238,7 @@ header{
 #externallinks{
 	margin:auto;
 	margin-top:50px;
+	margin-bottom: 50px;
 	width:260px;
 	position: static;
 }
